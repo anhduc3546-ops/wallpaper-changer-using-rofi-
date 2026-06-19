@@ -1,5 +1,6 @@
 A lightweight wallpaper switcher for Hyprland with smooth transition effects using awww.
-Create a Pictures/Wallpapers folder
+
+Create a Pictures/Wallpapers folder.
 mkdir -p ~/Pictures/Wallpapers
 
 VISUAL SELCTION: browse and select wallpapers using Rofi menu with thumnails preview
