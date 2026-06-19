@@ -12,7 +12,8 @@ sudo pacman -S rofi imagemagick awww
 
 -----SETUP:
 
-cp select-wallpaper.sh ~/.local/bin/
+cp ~/.local/bin/select-wallpaper.sh
+
 chmod +x ~/.local/bin/select-wallpaper.sh
 
 HYPRLAND CONFIG FILE:
