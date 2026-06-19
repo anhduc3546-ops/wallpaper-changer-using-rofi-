@@ -1,0 +1,50 @@
+configuration {
+    show-icons: true;
+}
+
+* {
+    /* Trong suốt hoàn toàn */
+    background-color: transparent;
+    text-color: transparent;
+}
+
+window {
+    width: 320px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 15px; /* Bo góc 15px cho toàn bộ menu */
+    background-color: rgba(0, 0, 0, 0.3); /* Nền trong suốt */
+}
+
+listview {
+    columns: 1;
+    lines: 4;
+    spacing: -120px; /* Xóa khoảng cách giữa các ảnh */
+    fixed-height: true;
+    scrollbar: false;
+}
+
+element {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: transparent;
+    height: 169px;
+}
+
+element-icon {
+    size: 300px; 
+    padding: 0px;
+    margin: 0px;
+    /* Bo góc cho từng ảnh */
+    border-radius: 15px; 
+    vertical-align: -100px;
+}
+
+element-text {
+    enabled: false; /* Tắt hẳn phần chữ */
+}
+
+element selected {
+    background-color: transparent;
+}
