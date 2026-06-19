@@ -1,18 +1,22 @@
 A lightweight wallpaper switcher for Hyprland with smooth transition effects using awww.
 
-Create a Pictures/Wallpapers folder.
+Create a Pictures/Wallpapers folder
+
 mkdir -p ~/Pictures/Wallpapers
 
-VISUAL SELCTION: browse and select wallpapers using Rofi menu with thumnails preview
+----VISUAL SELCTION: browse and select wallpapers using Rofi menu with thumnails preview
 Prerequisites: 
-INSTALL THESE THINGS
+INSTALL THESE THINGS:
+
 sudo pacman -S rofi imagemagick awww
 
-SETUP
+-----SETUP:
+
 cp select-wallpaper.sh ~/.local/bin/
 chmod +x ~/.local/bin/select-wallpaper.sh
 
-HYPRLAND CONFIG FILE
+HYPRLAND CONFIG FILE:
+
 nano ~/.connfig/hypr/hyprland.conf
 # Start the wallpaper daemon
 exec-once = awww-daemon
